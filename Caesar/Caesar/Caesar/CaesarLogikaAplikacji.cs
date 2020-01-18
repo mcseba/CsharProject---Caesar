@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Text;
+
 
 namespace Caesar
 {
@@ -8,12 +10,12 @@ namespace Caesar
         /// <summary>
         /// Przechowuje odczytany z pliku tekst do zaszyfrowania/deszyfrowania.
         /// </summary>
-        private string input;
+        public string input;
 
         /// <summary>
         /// Przechowuje gotowy tekst po konwersji (po zaszyfr./deszyfr.)
         /// </summary>
-        private string output;
+        public string output;
 
         /// <summary>
         /// Key - przechowuje wartość, która wskazuje o ile liter ma zostać przesunięty każdy 'char' w szyfrowanym tekście.
@@ -43,12 +45,9 @@ namespace Caesar
         /// <param name="nazwaNowegoPliku">Nazwa pliku do którego zostanie zapisany output programu</param>
         public void WriteTextToFile(string nazwaNowegoPliku)
         {
-            StreamWriter sw = new StreamWriter(Path.Combine(path, nazwaNowegoPliku));
+            string sciezka = Path.Combine(path, nazwaNowegoPliku);
 
-            foreach (var s in output)
-            {
-                sw.Write(s);
-            }
+            File.WriteAllText(sciezka, output);
         }
 
         /// <summary>
@@ -72,7 +71,9 @@ namespace Caesar
             {
                 return c;
             }
-            return (char)((c + Key) % 26);
+            char d = char.IsUpper(c) ? 'A' : 'a';
+            //return Convert.ToChar((c + Key));
+            return (char)((((c + Key) - d) % 26) + d);
         }
 
         /// <summary>
@@ -94,13 +95,15 @@ namespace Caesar
         /// <param name="c">Char który zostanie przesunięty o 'Key' wartość.</param>
         /// <param name="Key">Wartość o ile zostanie przesunięty char.</param>
         /// <returns></returns>
-        public char AlgorytmDeszyfrujacy(char c, int Key)
+        public static char AlgorytmDeszyfrujacy(char c, int Key)
         {
             if (!char.IsLetter(c))
             {
                 return c;
             }
-            return (char)((c - Key) % 26);
+            char d = char.IsUpper(c) ? 'A' : 'a';
+            return (char)((((c + (26 - Key)) - d) % 26)  + d);
+           // return Convert.ToChar((c - Key) % 26);
         }
 
         /// <summary>
