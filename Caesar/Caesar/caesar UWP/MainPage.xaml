@@ -15,6 +15,11 @@
         <Button Name="SzyfrujButton" Content="Szyfruj" Margin="63,374,0,0" VerticalAlignment="Top" Height="41" Width="127" Click="SzyfrujButton_Click"/>
         <Button Name="DeszyfrujButton" Content="Deszyfruj" Margin="247,374,0,0" VerticalAlignment="Top" Height="41" Width="127" Click="DeszyfrujButton_Click"/>
         <Button Name="SaveToFileButton" Content="Zapisz" Margin="63,471,0,0" VerticalAlignment="Top" Width="127" Height="41" Click="SaveToFileButton_Click"/>
+        <Image Source="Assets/napis.png" HorizontalAlignment="Left" Height="163" Margin="225,214,0,0" VerticalAlignment="Top" Width="527" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="90"/>
+            </Image.RenderTransform>
+        </Image>
 
     </Grid>
 </Page>

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2E44CBC22C98D6DC7701E7FA1E2B12E7DB3E11B77D8BFE3D84E0E4B5EAA76938</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>445211E4D6340EABBCB4C20917FA3826D91C132CCB9BAC71EA7E6B4AD647CFD1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d6256fd0-0f67-4a88-b6a4-240add1a2935_1.0.0.0_x64__ncpe1gy8ceps2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d6256fd0-0f67-4a88-b6a4-240add1a2935_ncpe1gy8ceps2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d6256fd0-0f67-4a88-b6a4-240add1a2935</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:53.539</Modified>
+      <Modified>2020-01-19T20:37:48.705</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.exe">
       <PackagePath>entrypoint\caesar UWP.exe</PackagePath>
-      <Modified>2020-01-19T19:59:34.506</Modified>
+      <Modified>2020-01-19T20:37:47.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,101 +44,130 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CaesarLogika\bin\x64\Debug\CaesarLogika.dll">
       <PackagePath>CaesarLogika.dll</PackagePath>
-      <Modified>2020-01-19T19:56:51.955</Modified>
+      <Modified>2020-01-19T20:32:11.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-19T20:23:54.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-19T20:23:54.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-19T20:23:54.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-19T20:23:54.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-01-19T20:23:54.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\napis.png">
+      <PackagePath>Assets\napis.png</PackagePath>
+      <Modified>2020-01-19T17:48:49.754</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.736</Modified>
+      <Modified>2020-01-19T20:23:09.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.756</Modified>
+      <Modified>2020-01-19T20:23:09.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.848</Modified>
+      <Modified>2020-01-19T20:23:09.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.777</Modified>
+      <Modified>2020-01-19T20:23:09.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.804</Modified>
+      <Modified>2020-01-19T20:23:09.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.621</Modified>
+      <Modified>2020-01-19T20:23:09.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.714</Modified>
+      <Modified>2020-01-19T20:23:09.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.659</Modified>
+      <Modified>2020-01-19T20:23:09.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.673</Modified>
+      <Modified>2020-01-19T20:23:09.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.400</Modified>
+      <Modified>2020-01-19T20:23:09.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.420</Modified>
+      <Modified>2020-01-19T20:23:09.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.438</Modified>
+      <Modified>2020-01-19T20:23:09.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.479</Modified>
+      <Modified>2020-01-19T20:23:09.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.496</Modified>
+      <Modified>2020-01-19T20:23:09.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.499</Modified>
+      <Modified>2020-01-19T20:23:09.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.597</Modified>
+      <Modified>2020-01-19T20:23:09.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.534</Modified>
+      <Modified>2020-01-19T20:23:09.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.554</Modified>
+      <Modified>2020-01-19T20:23:09.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -157,12 +186,12 @@
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.451</Modified>
+      <Modified>2020-01-19T20:23:09.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T20:11:30.632</Modified>
+      <Modified>2020-01-19T20:23:09.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -180,7 +209,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.xr.xml">
       <PackagePath>caesar UWP.xr.xml</PackagePath>
-      <Modified>2020-01-19T19:24:58.708</Modified>
+      <Modified>2020-01-19T20:37:05.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -188,7 +217,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-01-19T20:11:52.082</Modified>
+      <Modified>2020-01-19T20:37:46.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -196,11 +225,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-19T20:11:52.833</Modified>
+      <Modified>2020-01-19T20:37:06.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\caesar UWP.exe">
       <PackagePath>caesar UWP.exe</PackagePath>
-      <Modified>2020-01-19T20:11:53.530</Modified>
+      <Modified>2020-01-19T20:37:48.697</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
