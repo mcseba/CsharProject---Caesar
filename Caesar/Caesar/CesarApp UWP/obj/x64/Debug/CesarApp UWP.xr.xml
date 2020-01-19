@@ -2,6 +2,7 @@
 <Roots >
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="CesarApp_UWP.App" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
@@ -10,17 +11,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootEvent Name="Click" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Header" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextWrapping" />
@@ -28,6 +22,15 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="CesarApp_UWP.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="CesarApp_UWP.BlankPage1" />
   </Roots.RootTypes>
 </Roots>

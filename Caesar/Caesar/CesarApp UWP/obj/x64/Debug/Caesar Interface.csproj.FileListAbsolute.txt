@@ -46,3 +46,16 @@ C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CesarApp UWP\
 C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CesarApp UWP\bin\x64\Debug\CaesarLogika.pdb
 C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CesarApp UWP\bin\x64\Debug\CaesarLogika.pri
 C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\CaesarLogika.pri.xml
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\Caesar Interface.csprojAssemblyReference.cache
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\App.g.i.cs
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\App.g.cs
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\App.xaml
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\App.xbf
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\CesarApp UWP.exe
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\CesarApp UWP.pdb
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\MainPage.g.cs
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\MainPage.xaml
+C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CesarApp UWP\obj\x64\Debug\MainPage.xbf
