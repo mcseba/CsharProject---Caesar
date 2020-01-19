@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-
+using System.Xml;
 
 namespace Caesar
 {
@@ -11,6 +11,9 @@ namespace Caesar
         /// Przechowuje odczytany z pliku tekst do zaszyfrowania/deszyfrowania.
         /// </summary>
         public string input;
+
+        private char[] alfabet = {'a', 'ą', 'b', 'c', 'ć', 'd', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'ł', 'm', 'n', 'ń', 'o', 'ó'
+        , 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ź', 'ż'};
 
         /// <summary>
         /// Przechowuje gotowy tekst po konwersji (po zaszyfr./deszyfr.)
@@ -31,12 +34,11 @@ namespace Caesar
         /// Odczytuje plik tekstowy ze ścieżki i zapisuje go do 'input' string.
         /// </summary>
         /// <param name="Path">Ścieżka pliku tekstowego</param>
-        public void ReadTextFromFile(string sciezkaPliku)
+        public void ReadTextFromFile(string tekst)
         {
-            this.path = Path.GetDirectoryName(sciezkaPliku);
-
-            StreamReader sr = new StreamReader(sciezkaPliku);
-            this.input = sr.ReadToEnd();
+            // this.input = tekst;
+            StreamReader sr = new StreamReader(tekst);
+            input = sr.ReadToEnd();
         }
 
         /// <summary>
@@ -72,8 +74,31 @@ namespace Caesar
                 return c;
             }
             char d = char.IsUpper(c) ? 'A' : 'a';
-            //return Convert.ToChar((c + Key));
             return (char)((((c + Key) - d) % 26) + d);
+        }
+
+        /// <summary>
+        /// Algorytm cezara do szyfrowania tekstu z polskimi znakami. 'Szyfr = (Char + Key) % 34'
+        /// </summary>
+        public void AlgorytmSzyfrujacy2()
+        {
+            char[] charArray = input.ToCharArray();
+            char[] encryptedMessage = new char[charArray.Length];
+
+            for (int i = 0; i < charArray.Length; i++)
+            {
+                if (!char.IsLetter(charArray[i]))
+                {
+                    encryptedMessage[i] = charArray[i];
+                }
+                else
+                {
+                    int index = Array.IndexOf(alfabet, charArray[i]);
+                    int indexLetter = (index += key + 1) % 34;
+                    encryptedMessage[i] = alfabet[indexLetter];
+                }
+            }
+            output = String.Join("", encryptedMessage);
         }
 
         /// <summary>
@@ -104,6 +129,30 @@ namespace Caesar
             char d = char.IsUpper(c) ? 'A' : 'a';
             return (char)((((c + (26 - Key)) - d) % 26)  + d);
            // return Convert.ToChar((c - Key) % 26);
+        }
+
+        /// <summary>
+        /// Algorytm cezara do szyfrowania tekstu z polskimi znakami. 'Szyfr = (Char - key) % 34'
+        /// </summary>
+        public void AlgorytmDeszyfrujacy2()
+        {
+            char[] charArray = input.ToCharArray();
+            char[] encryptedMessage = new char[charArray.Length];
+
+            for (int i = 0; i < charArray.Length; i++)
+            {
+                if (!char.IsLetter(charArray[i]))
+                {
+                    encryptedMessage[i] = charArray[i];
+                }
+                else
+                {
+                    int index = Array.IndexOf(alfabet, charArray[i]);
+                    int indexLetter = (index += 34 - key - 1) % 34;
+                    encryptedMessage[i] = alfabet[indexLetter];
+                }
+            }
+            output = String.Join("", encryptedMessage);
         }
 
         /// <summary>
