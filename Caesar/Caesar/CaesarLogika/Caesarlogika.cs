@@ -1,21 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using Windows.Storage;
+using Windows.Storage.Pickers;
 
 namespace Caesar
 {
     public class CaesarLogikaAplikacji
     {
+        private char[] alfabet = new char[] {'a', 'ą', 'b', 'c', 'ć', 'd', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'ł',
+                                                'm', 'n', 'ń', 'o', 'ó', 'p', 'q', 'r', 's', 'ś', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ź', 'ż' };
+
         /// <summary>
         /// Przechowuje odczytany z pliku tekst do zaszyfrowania/deszyfrowania.
         /// </summary>
-        public string input;
+        private string input;
 
         /// <summary>
         /// Przechowuje gotowy tekst po konwersji (po zaszyfr./deszyfr.)
         /// </summary>
-        public string output;
+        private string output;
 
         /// <summary>
         /// Key - przechowuje wartość, która wskazuje o ile liter ma zostać przesunięty każdy 'char' w szyfrowanym tekście.
@@ -23,99 +28,86 @@ namespace Caesar
         private int key;
 
         /// <summary>
-        /// Przechowuje ścieżkę wskazanego pliku.
+        /// Użytkownik wybiera plik tekstowy i ładuje go do string input w celu późniejszego przetworzenia.
         /// </summary>
-        public string path;
-
-        /// <summary>
-        /// Odczytuje plik tekstowy ze ścieżki i zapisuje go do 'input' string.
-        /// </summary>
-        /// <param name="Path">Ścieżka pliku tekstowego</param>
-        public void ReadTextFromFile(string sciezkaPliku)
+        public async void PickAndLoad()
         {
-            this.path = Path.GetDirectoryName(sciezkaPliku);
+            FileOpenPicker picker = new FileOpenPicker();
+            picker.SuggestedStartLocation = PickerLocationId.Desktop;
+            picker.FileTypeFilter.Add(".txt");
 
-            StreamReader sr = new StreamReader(sciezkaPliku);
-            this.input = sr.ReadToEnd();
+            StorageFile file = await picker.PickSingleFileAsync();
+            input = await FileIO.ReadTextAsync(file);
         }
 
-        /// <summary>
-        /// Zapisuje output do pliku tekstowego.
-        /// </summary>
-        /// <param name="nazwaNowegoPliku">Nazwa pliku do którego zostanie zapisany output programu</param>
-        public void WriteTextToFile(string nazwaNowegoPliku)
+        public async void SaveToFile(string nazwaNowegoPliku)
         {
-            string sciezka = Path.Combine(path, nazwaNowegoPliku);
-
-            File.WriteAllText(sciezka, output);
+            var savePicker = new FileSavePicker();
+            savePicker.SuggestedStartLocation = PickerLocationId.Desktop;
+            savePicker.FileTypeChoices.Add("plaintext", new List<string>() { ".txt" });
+            savePicker.SuggestedFileName = nazwaNowegoPliku;
+            StorageFile savedFile = await savePicker.PickSaveFileAsync();
+            CachedFileManager.DeferUpdates(savedFile);
+            await FileIO.WriteTextAsync(savedFile, output);
+            Windows.Storage.Provider.FileUpdateStatus status = await CachedFileManager.CompleteUpdatesAsync(savedFile);
         }
 
         /// <summary>
         /// Przypisuje klucz wpisany przez użytkownika aplikacji.
         /// </summary>
-        /// <param name="i">Klucz</param>
-        public void PobierzKlucz(int i)
+        /// <param name="klucz">Klucz</param>
+        public void PobierzKlucz(int klucz)
         {
-            this.key = i;
+            this.key = klucz;
         }
 
         /// <summary>
-        /// Algorytm do szyfrowania tekstu. 'Szyfr = (Char + Key) % 26'
+        /// Algorytm szyfrujący Cezara, zwraca zaszyfrowany tekst do output.
+        /// Szyfr = (Char + Key) % 36
         /// </summary>
-        /// <param name="c">Char który zostaje przesunięty o 'key' wartość.</param>
-        /// <param name="Key">Wartość o ile zostanie przesunięty char.</param>
-        /// <returns></returns>
-        public static char AlgorytmSzyfrujacy(char c, int Key)
+        public void AlgorytmSzyfrujacy()
         {
-            if (!char.IsLetter(c))
-            {
-                return c;
-            }
-            char d = char.IsUpper(c) ? 'A' : 'a';
-            //return Convert.ToChar((c + Key));
-            return (char)((((c + Key) - d) % 26) + d);
-        }
+            char[] charArray = input.ToCharArray();
+            char[] encryptedChar = new char[input.Length];
 
-        /// <summary>
-        /// Szyfruje wczytany plik tekstowy używając AlgorytmSzyfrujący() do string output.
-        /// </summary>
-        public void Szyfruj()
-        {
-            output = string.Empty;
-
-            foreach (char ch in input)
+            for (int i = 0; i < charArray.Length; i++)
             {
-                output += AlgorytmSzyfrujacy(ch, this.key);
+                if (!char.IsLetter(charArray[i]))
+                {
+                    encryptedChar[i] = charArray[i];
+                }
+                else
+                {
+                    int index = Array.IndexOf(alfabet, charArray[i]);
+                    int newCharIndex = (index += key + 1) % 36;
+                    encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
+                }
+                output = String.Join("", encryptedChar);
             }
         }
 
         /// <summary>
-        /// Algorytm do deszyfracji tekstu. 'Deszyfr = (Char - Key) % 26'
+        /// Algorytm deszyfrujący Cezara, zwraca zaszyfrowany tekst do output.
+        /// Szyfr = (Char + 36 - Key) % 36;
         /// </summary>
-        /// <param name="c">Char który zostanie przesunięty o 'Key' wartość.</param>
-        /// <param name="Key">Wartość o ile zostanie przesunięty char.</param>
-        /// <returns></returns>
-        public static char AlgorytmDeszyfrujacy(char c, int Key)
+        public void AlgorytmDeszyfrujacy()
         {
-            if (!char.IsLetter(c))
-            {
-                return c;
-            }
-            char d = char.IsUpper(c) ? 'A' : 'a';
-            return (char)((((c + (26 - Key)) - d) % 26) + d);
-            // return Convert.ToChar((c - Key) % 26);
-        }
+            char[] charArray = input.ToCharArray();
+            char[] encryptedChar = new char[input.Length];
 
-        /// <summary>
-        /// Deszyfruje wczytany plik tekstowy używając AlgorytmDeszyfrujący() do string output.
-        /// </summary>
-        public void Deszyfruj()
-        {
-            output = string.Empty;
-
-            foreach (char ch in input)
+            for (int i = 0; i < charArray.Length; i++)
             {
-                output += AlgorytmDeszyfrujacy(ch, this.key);
+                if (!char.IsLetter(charArray[i]))
+                {
+                    encryptedChar[i] = charArray[i];
+                }
+                else
+                {
+                    int index = Array.IndexOf(alfabet, charArray[i]);
+                    int newCharIndex = (index += 36 - key - 1) % 36;
+                    encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
+                }
+                output = String.Join("", encryptedChar);
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
+    "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
+        "projectUniqueName": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
         "projectName": "CaesarLogika",
-        "projectPath": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
+        "projectPath": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
         "packagesPath": "C:\\Users\\sebar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\obj\\",
+        "outputPath": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\sebar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -103,8 +103,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
-                "projectPath": "C:\\Users\\sebar\\source\\repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj"
+              "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
+                "projectPath": "C:\\Users\\sebar\\Source\\Repos\\CsharProject---Caesar\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj"
               }
             }
           }
