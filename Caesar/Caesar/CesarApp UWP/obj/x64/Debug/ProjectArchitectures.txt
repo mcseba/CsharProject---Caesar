@@ -1,0 +1,2 @@
+C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CaesarLogika\CaesarLogika.csproj;x64
+C:\Users\Dymion\Desktop\CsharProject---Caesar-master\Caesar\Caesar\CesarApp UWP\Caesar Interface.csproj;x64
