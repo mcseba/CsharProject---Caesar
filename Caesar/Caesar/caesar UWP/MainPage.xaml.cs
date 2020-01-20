@@ -28,14 +28,17 @@ namespace caesar_UWP
             this.InitializeComponent();
         }
         CaesarLogikaAplikacji caesarLogika = new CaesarLogikaAplikacji();
+
         /// <summary>
         /// Wybiera plik i go ładuje do logiki aplikacji do późniejszego przetworzenia.
+        /// Ustawia nazwę wybranego pliku w TextBoxie.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void WybierzPlikButton_Click(object sender, RoutedEventArgs e)
         {
-            caesarLogika.PickAndLoad();
+            caesarLogika.PickAndLoadAsync();
+            // WybranyPlik.Text = caesarLogika.fileName;  To trzeba poprawić żeby czekało na zakonczenie PickAndLoad()
         }
 
         /// <summary>
@@ -64,7 +67,7 @@ namespace caesar_UWP
 
         private void SaveToFileButton_Click(object sender, RoutedEventArgs e)
         {
-            caesarLogika.SaveToFile(nazwaPlikuTextBox.Text);
+            caesarLogika.SaveToFileAsync(nazwaPlikuTextBox.Text);
         }
     }
 }

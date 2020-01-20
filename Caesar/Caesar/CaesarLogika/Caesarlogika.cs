@@ -36,9 +36,14 @@ namespace Caesar
         public string error;
 
         /// <summary>
+        /// Nazwa pobranego pliku razem z rozszerzeniem.
+        /// </summary>
+        public string fileName;
+
+        /// <summary>
         /// Użytkownik wybiera plik tekstowy i ładuje go do string input w celu późniejszego przetworzenia.
         /// </summary>
-        public async void PickAndLoad()
+        public async void PickAndLoadAsync()
         {
             FileOpenPicker picker = new FileOpenPicker();
             picker.SuggestedStartLocation = PickerLocationId.Desktop;
@@ -46,9 +51,15 @@ namespace Caesar
 
             StorageFile file = await picker.PickSingleFileAsync();
             input = await FileIO.ReadTextAsync(file);
+
+            fileName = file.Name;
         }
 
-        public async void SaveToFile(string nazwaNowegoPliku)
+        /// <summary>
+        /// Zapisz transponowany tekst do pliku.
+        /// </summary>
+        /// <param name="nazwaNowegoPliku">Nazwa pod jakim tekst ma zostać zapisany</param>
+        public async void SaveToFileAsync(string nazwaNowegoPliku)
         {
             var savePicker = new FileSavePicker();
             savePicker.SuggestedStartLocation = PickerLocationId.Desktop;
@@ -65,12 +76,8 @@ namespace Caesar
         /// </summary>
         /// <param name="klucz">Klucz</param>
         public void PobierzKlucz(int klucz)
-        {
-            
-                this.key = klucz;
-            
-                
-            
+        {           
+                this.key = klucz;                        
         }
 
         /// <summary>
@@ -91,7 +98,7 @@ namespace Caesar
                 else
                 {
                     int index = Array.IndexOf(alfabet, charArray[i]);
-                    int newCharIndex = (index += key + 1) % 36;
+                    int newCharIndex = (index += (key + 1)) % 36;
                     encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
                 }
                 output = String.Join("", encryptedChar);
@@ -116,13 +123,10 @@ namespace Caesar
                 else
                 {
                     int index = Array.IndexOf(alfabet, charArray[i]);
-                    int newCharIndex = (index += 36 - key - 1) % 36;
+                    int newCharIndex = (index += (36 - key - 1)) % 36;
                     encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
                 }
-                output = String.Join("", encryptedChar);
-
-                
-                
+                output = String.Join("", encryptedChar);          
             }
         }
     }

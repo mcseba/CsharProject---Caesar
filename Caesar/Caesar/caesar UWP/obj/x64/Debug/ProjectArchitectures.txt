@@ -1,2 +1,2 @@
-C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\caesar UWP.csproj;x64
-C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CaesarLogika\CaesarLogika.csproj;x64
+C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\caesar UWP.csproj;x64
+C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\CaesarLogika\CaesarLogika.csproj;x64

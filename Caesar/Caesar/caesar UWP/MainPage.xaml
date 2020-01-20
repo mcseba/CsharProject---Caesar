@@ -9,17 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox Name="klucz" HorizontalAlignment="Left" Header="Klucz przesunięcia" Margin="63,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="186"/>
-        <Button Content="Wybierz plik"  Margin="63,68,0,0" VerticalAlignment="Top" Height="40" Width="127" Click="Button_Click"/>
+        <TextBox Name="klucz" HorizontalAlignment="Left" Header="Klucz przesunięcia" Margin="63,163,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="186"/>
+        <Button Name="WybierzPlik" Content="Wybierz plik"  Margin="63,68,0,0" VerticalAlignment="Top" Height="40" Width="127" Click="Button_Click"/>
         <TextBox Name="nazwaPlikuTextBox" HorizontalAlignment="Left" Header="Nazwa nowego pliku" Margin="63,253,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
         <Button Name="SzyfrujButton" Content="Szyfruj" Margin="63,374,0,0" VerticalAlignment="Top" Height="41" Width="127" Click="SzyfrujButton_Click"/>
         <Button Name="DeszyfrujButton" Content="Deszyfruj" Margin="247,374,0,0" VerticalAlignment="Top" Height="41" Width="127" Click="DeszyfrujButton_Click"/>
-        <Button Name="SaveToFileButton" Content="Zapisz" Margin="63,471,0,0" VerticalAlignment="Top" Width="127" Height="41" Click="SaveToFileButton_Click"/>
+        <Button Name="SaveToFileButton" Content="Zapisz" Margin="63,449,0,0" VerticalAlignment="Top" Width="127" Height="41" Click="SaveToFileButton_Click"/>
         <Image Source="Assets/napis.png" HorizontalAlignment="Left" Height="163" Margin="225,214,0,0" VerticalAlignment="Top" Width="527" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Image.RenderTransform>
                 <CompositeTransform Rotation="90"/>
             </Image.RenderTransform>
         </Image>
+        <TextBlock Name="WybranyPlik" HorizontalAlignment="Left" Margin="63,113,0,0" Text="Wybrany plik" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Height="23"/>
 
     </Grid>
 </Page>

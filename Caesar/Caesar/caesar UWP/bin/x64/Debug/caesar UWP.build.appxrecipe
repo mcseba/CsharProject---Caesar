@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-K34J7VH</Machine>
-    <WindowsUser>Dymion</WindowsUser>
+    <Machine>SEBASTIANRAJTAR</Machine>
+    <WindowsUser>sebar</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,174 +10,258 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>d6256fd0-0f67-4a88-b6a4-240add1a2935</PackageIdentityName>
     <PackageIdentityPublisher>CN=Dymion</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.exe">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.exe">
       <PackagePath>entrypoint\caesar UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\CaesarLogika\bin\x64\Debug\CaesarLogika.dll">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\CaesarLogika\bin\x64\Debug\CaesarLogika.dll">
       <PackagePath>CaesarLogika.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\napis.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\napis.png">
       <PackagePath>Assets\napis.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\caesar UWP.xr.xml">
       <PackagePath>caesar UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dymion\Desktop\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\caesar UWP.exe">
+    <AppxPackagedFile Include="C:\Users\sebar\source\repos\CsharProject---Caesar\Caesar\Caesar\caesar UWP\bin\x64\Debug\Core\caesar UWP.exe">
       <PackagePath>caesar UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
