@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Caesar;
 using Windows.UI.Popups;
+using System.Threading;
+using System.Threading.Tasks;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace caesar_UWP
@@ -38,7 +40,6 @@ namespace caesar_UWP
         private void WybierzPlikButton_Click(object sender, RoutedEventArgs e)
         {
             caesarLogika.PickAndLoadAsync();
-            // WybranyPlik.Text = caesarLogika.fileName;  To trzeba poprawić żeby czekało na zakonczenie PickAndLoad()
         }
 
         /// <summary>
@@ -46,25 +47,37 @@ namespace caesar_UWP
         /// </summary>
         private void KeyReader()
         {
-            caesarLogika.PobierzKlucz(Convert.ToInt32(klucz.Text));
+            caesarLogika.PobierzKlucz(klucz.Text);
         }
 
-        private async void SzyfrujButton_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Button "SzyfrujButtonClick" szyfruje załadowany plik.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SzyfrujButton_Click(object sender, RoutedEventArgs e)
         {
+            KeyReader();
             caesarLogika.AlgorytmSzyfrujacy();
-            var dialog = new MessageDialog("Zaszyfrowano");
-            await dialog.ShowAsync();
 
         }
 
-        private async void DeszyfrujButton_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Button "DeszyfrujButtonClick" deszyfruje załadowany plik.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DeszyfrujButton_Click(object sender, RoutedEventArgs e)
         {
+            KeyReader();
             caesarLogika.AlgorytmDeszyfrujacy();
-            var dialog = new MessageDialog("Zdeszyfrowano");
-            await dialog.ShowAsync();
-
         }
 
+        /// <summary>
+        /// Button "SaveToFileButton" zapisuje plik po uprzednim transponowaniu.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SaveToFileButton_Click(object sender, RoutedEventArgs e)
         {
             caesarLogika.SaveToFileAsync(nazwaPlikuTextBox.Text);
