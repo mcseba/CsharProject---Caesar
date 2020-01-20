@@ -18,7 +18,7 @@ namespace Caesar
         /// <summary>
         /// Przechowuje odczytany z pliku tekst do zaszyfrowania/deszyfrowania.
         /// </summary>
-        private string input;
+        public string input;
 
         /// <summary>
         /// Przechowuje gotowy tekst po konwersji (po zaszyfr./deszyfr.)
@@ -28,7 +28,7 @@ namespace Caesar
         /// <summary>
         /// Key - przechowuje wartość, która wskazuje o ile liter ma zostać przesunięty każdy 'char' w szyfrowanym tekście.
         /// </summary>
-        private int key;
+        public int key;
 
         /// <summary>
         /// Użytkownik wybiera plik tekstowy i ładuje go do string input w celu późniejszego przetworzenia.
@@ -91,7 +91,7 @@ namespace Caesar
         /// <param name="klucz">Klucz</param>
         public async void PobierzKlucz(string klucz)
         {      
-            if (klucz == null || klucz == "")
+            if (klucz == null || klucz == "" )
             {
                 var dialog = new MessageDialog("Wprowadź poprawny klucz.");
                 await dialog.ShowAsync();

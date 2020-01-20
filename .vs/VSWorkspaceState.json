@@ -4,9 +4,8 @@
     "\\Caesar",
     "\\Caesar\\Caesar",
     "\\Caesar\\Caesar\\caesar UWP",
-    "\\Caesar\\Caesar\\CaesarLogika",
-    "\\Caesar\\Caesar\\CesarApp UWP"
+    "\\Caesar\\Caesar\\CaesarLogika"
   ],
-  "SelectedNode": "\\Caesar\\Caesar\\caesar UWP\\MainPage.xaml.cs",
+  "SelectedNode": "\\Caesar\\Caesar\\Caesar.sln",
   "PreviewInSolutionExplorer": false
 }

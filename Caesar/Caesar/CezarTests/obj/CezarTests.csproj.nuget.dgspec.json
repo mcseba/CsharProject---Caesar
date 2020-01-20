@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CezarTests\\CezarTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
+        "projectName": "CaesarLogika",
+        "projectPath": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj",
+        "packagesPath": "C:\\Users\\Dymion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dymion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "docfx.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.48.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CezarTests\\CezarTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CezarTests\\CezarTests.csproj",
+        "projectName": "CezarTests",
+        "projectPath": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CezarTests\\CezarTests.csproj",
+        "packagesPath": "C:\\Users\\Dymion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CezarTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dymion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj": {
+                "projectPath": "C:\\Users\\Dymion\\Desktop\\cezarrrrrrrrrrrrrrr\\Caesar\\Caesar\\CaesarLogika\\CaesarLogika.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

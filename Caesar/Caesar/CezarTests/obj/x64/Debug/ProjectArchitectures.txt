@@ -1,0 +1,2 @@
+C:\Users\Dymion\Desktop\cezarrrrrrrrrrrrrrr\Caesar\Caesar\CaesarLogika\CaesarLogika.csproj;x64
+C:\Users\Dymion\Desktop\cezarrrrrrrrrrrrrrr\Caesar\Caesar\CezarTests\CezarTests.csproj;x64
