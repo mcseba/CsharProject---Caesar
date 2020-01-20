@@ -3,7 +3,8 @@
     "",
     "\\Caesar",
     "\\Caesar\\Caesar",
-    "\\Caesar\\Caesar\\CaesarLogika"
+    "\\Caesar\\Caesar\\CaesarLogika",
+    "\\Caesar\\Caesar\\CesarApp UWP"
   ],
   "SelectedNode": "\\Caesar\\Caesar\\CaesarLogika\\Caesarlogika.cs",
   "PreviewInSolutionExplorer": false

@@ -4,9 +4,12 @@ using System.IO;
 using System.Text;
 using Windows.Storage;
 using Windows.Storage.Pickers;
+using Windows.UI.Popups;
 
 namespace Caesar
 {
+
+
     public class CaesarLogikaAplikacji
     {
         private char[] alfabet = new char[] {'a', 'ą', 'b', 'c', 'ć', 'd', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'ł',
@@ -20,12 +23,17 @@ namespace Caesar
         /// <summary>
         /// Przechowuje gotowy tekst po konwersji (po zaszyfr./deszyfr.)
         /// </summary>
-        private string output;
+        public string output;
 
         /// <summary>
         /// Key - przechowuje wartość, która wskazuje o ile liter ma zostać przesunięty każdy 'char' w szyfrowanym tekście.
         /// </summary>
         private int key;
+
+        /// <summary>
+        /// Przechowuje wiadomość o błedzie.
+        /// </summary>
+        public string error;
 
         /// <summary>
         /// Użytkownik wybiera plik tekstowy i ładuje go do string input w celu późniejszego przetworzenia.
@@ -58,7 +66,11 @@ namespace Caesar
         /// <param name="klucz">Klucz</param>
         public void PobierzKlucz(int klucz)
         {
-            this.key = klucz;
+            
+                this.key = klucz;
+            
+                
+            
         }
 
         /// <summary>
@@ -108,6 +120,9 @@ namespace Caesar
                     encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
                 }
                 output = String.Join("", encryptedChar);
+
+                
+                
             }
         }
     }
