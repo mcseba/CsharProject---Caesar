@@ -9,14 +9,10 @@ namespace CezarTests
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
 
-        }
 
         [TestMethod]
-        public void test()
+        public void Szyfruj()
         {
             CaesarLogikaAplikacji caesarLogika = new CaesarLogikaAplikacji();
             caesarLogika.input = "abc";

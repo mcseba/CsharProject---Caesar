@@ -91,7 +91,7 @@ namespace Caesar
         /// <param name="klucz">Klucz</param>
         public async void PobierzKlucz(string klucz)
         {      
-            if (klucz == null || klucz == "" )
+            if (klucz == null || klucz == "" || !Int32.TryParse(klucz , out key))
             {
                 var dialog = new MessageDialog("Wprowadź poprawny klucz.");
                 await dialog.ShowAsync();
@@ -125,7 +125,7 @@ namespace Caesar
                     else
                     {
                         int index = Array.IndexOf(alfabet, char.ToLower(charArray[i]));
-                        int newCharIndex = (index += (key + 1)) % 36;
+                        int newCharIndex = (index += ((key + 1)% 36)) % 36;
                         encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
                     }
                     output = String.Join("", encryptedChar);
@@ -160,7 +160,7 @@ namespace Caesar
                     else
                     {
                         int index = Array.IndexOf(alfabet, char.ToLower(charArray[i]));
-                        int newCharIndex = (index += (36 - key - 1)) % 36;
+                        int newCharIndex = (index += 36 - ((key +1)%36)) % 36;
                         encryptedChar[i] = char.IsUpper(charArray[i]) ? char.ToUpper(alfabet[newCharIndex]) : alfabet[newCharIndex];
                     }
                     output = String.Join("", encryptedChar);
